@@ -192,7 +192,8 @@ const Game = (props) => {
             display: inline-block;
             font-size: 25px;
             cursor: pointer;
-          }
+          }          
+
         `}</style>
       </div>
   );
