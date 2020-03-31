@@ -968,6 +968,13 @@
   resolved "https://registry.yarnpkg.com/@next/polyfill-nomodule/-/polyfill-nomodule-9.3.3.tgz#07b206ead5cd65f6739e69accb71c1f8762ae891"
   integrity sha512-IsJeoEMleAqDU7kVuAxBael+z6CFyLyK0opEmubsCw6Ve6xAI291qCYJuOQK8IiG3693g7N7Nfr8Osh6NG0NvQ==
 
+"@quentin-sommer/react-useragent@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@quentin-sommer/react-useragent/-/react-useragent-3.1.0.tgz#8aa823fed7da5034edbf5bb1dc3cefd3d19473ea"
+  integrity sha512-twLVX4A7GpHCEcr5M3c97QR88t+uSZUjvNSTZMqoY5vjPXhpAcw0ZlWpMF6Nlg7Ofkwo3pZa3paQ9Nt7VJYHOA==
+  dependencies:
+    ua-parser-js "^0.7.20"
+
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -5615,6 +5622,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+ua-parser-js@^0.7.20:
+  version "0.7.21"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
+  integrity sha512-+O8/qh/Qj8CgC6eYBVBykMrNtp5Gebn4dlGD/kKXVkJNDwyrAwSIqwz8CDf+tsAIWVycKcku6gIXJ0qwx/ZXaQ==
 
 unfetch@4.1.0:
   version "4.1.0"
