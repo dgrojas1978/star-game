@@ -105,8 +105,8 @@ const Game = (props) => {
 
         <style jsx>{`
           .game {
-            max-width: 500px;
-            margin: 0 auto;
+            max-width: 480px;
+            margin: 100px auto;
           }
           .body {
             display: flex;
@@ -161,10 +161,6 @@ const Game = (props) => {
           svg {
             margin:5px;
           }
-          .container {
-
-            margin: 100px auto;
-          }
           .number {
             background-color: #eee;
             border: thin solid #ddd;
@@ -177,10 +173,11 @@ const Game = (props) => {
             outline: none;
             border: thin solid #ddd;
           }
+
           .game-done .message {
-          font-size: 250%;
-          font-weight: bold;
-          margin: 15px;
+            font-size: 250%;
+            font-weight: bold;
+            margin: 15px;
           }
 
           .button {
@@ -192,7 +189,11 @@ const Game = (props) => {
             display: inline-block;
             font-size: 25px;
             cursor: pointer;
-          }          
+          }
+
+          @media only screen and (max-width: 600px) {
+
+          }
 
         `}</style>
       </div>
